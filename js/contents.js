@@ -25,7 +25,7 @@ function convertCSVtoArray(str){ // 読み込んだCSVデータが文字列と�
     var spotList=document.getElementById("main");
     spotList.innerHTML+=result[value[1]][1]+"("+result[value[1]][2]+")</br>";
     spotList.innerHTML+="<img src='./img/spot/"+result[value[1]][5]+"' width='100%'></br>";
-    spotList.innerHTML+="<audio src='./data/audio/nakamanoyado.m4a' controls></br>"
+    spotList.innerHTML+="<audio src='./data/audio/"+result[value[1]][8]+"' controls></br>"
     spotList.innerHTML+="</br>"+result[value[1]][3]+"</br>";
 
 }
